@@ -1,0 +1,923 @@
+
+#=======================================================================
+data_global
+#=======================================================================
+
+_audit_creation_method                   'Jana2000 Version : 08/11/2007'
+
+
+# 1. PROCESSING SUMMARY (IUCr Office Use Only)
+
+_journal_date_recd_electronic            ?
+_journal_date_to_coeditor                ?
+_journal_date_from_coeditor              ?
+_journal_date_accepted                   ?
+_journal_date_printers_first             ?
+_journal_date_printers_final             ?
+_journal_date_proofs_out                 ?
+_journal_date_proofs_in                  ?
+_journal_coeditor_name                   ?
+_journal_coeditor_code                   ?
+_journal_coeditor_notes                 
+; ?
+;
+_journal_techeditor_code                 ?
+_journal_paper_category                  ?
+_journal_techeditor_notes               
+; ?
+;
+_journal_coden_ASTM                      ?
+_journal_name_full                       'Acta Crystallographica Section C'
+_journal_year                            ?
+_journal_volume                          ?
+_journal_issue                           ?
+_journal_page_first                      ?
+_journal_page_last                       ?
+_journal_suppl_publ_number               ?
+_journal_suppl_publ_pages                ?
+
+#=======================================================================
+
+# 2. SUBMISSION DETAILS
+
+_publ_contact_author_name                ?
+_publ_contact_author_address            
+; ?
+;
+_publ_contact_author_email               ?
+_publ_contact_author_fax                 ?
+_publ_contact_author_phone               ?
+
+_publ_requested_journal                  'Acta Crystallographica Section C'
+_publ_requested_category                 ?
+
+_publ_contact_letter                    
+; ?
+;
+
+#=======================================================================
+
+# 3. TITLE AND AUTHOR LIST
+
+_publ_section_title                     
+; ?
+;
+_publ_section_title_footnote            
+; ?
+;
+loop_
+ _publ_author_name                                           
+ _publ_author_footnote                                       
+ _publ_author_address                                        
+ ?       # name 
+; ?      # footnote
+;
+; ?      # address
+;
+
+#=======================================================================
+
+# 4. TEXT
+
+_publ_section_synopsis                  
+; ?
+;
+_publ_section_abstract                  
+; ?
+;
+_publ_section_comment                   
+; ?
+;
+_publ_section_introduction              
+; ?
+;
+_publ_section_experimental              
+; ?
+;
+_publ_section_exptl_prep                
+; ?
+;
+_publ_section_exptl_refinement          
+; ?
+;
+_publ_section_exptl_solution            
+; ?
+;
+_publ_section_discussion                
+; ?
+;
+_publ_section_acknowledgements          
+; ?
+;
+_publ_section_references                
+;
+Becker, P. J. & Coppens, P. (1974). Acta Cryst. A30, 129-153.
+ 
+Petricek, V., Dusek, M. & Palatinus L. (2000). Jana2000.
+Structure Determination Software Programs.
+Institute of Physics, Praha, Czech Republic.
+
+# enable this reference if Diamond ver. 2 was used for visualization
+#Brandenburg, K. (1999). DIAMOND. Version. 2.1c.
+#Crystal Impact GbR, Bonn, Germany.
+
+# enable this reference if Diamond ver. 3 was used for visualization
+#Brandenburg, K. & Putz, H. (2005). DIAMOND Version 3.
+#Crystal Impact GbR, Postfach 1251, D-53002 Bonn, Germany.
+
+# enable this reference if SIR97 was used for solving of the structure
+#Altomare, A., Burla, M. C., Camalli, M., Cascarano, G., Giacovazzo, C.,
+#Guagliardi, A., Moliterni, A. G. G., Polidori, G., Spagna, R. (1997).
+#SIR97. A Package for Crystal Structure Solution by Direct Methods
+#and Refinement, Bari, Rome, Italy.
+
+# use this reference if SIR2002 was used for solving of the structure
+#Burla, M.C., Camalli, M., Carrozzini, B., Cascarano, G., Giacovazzo, C.,
+#Polidori, G., Spagna, R.
+#SIR2002: the program, J. Appl. Cryst, (2003). 36, 1103
+
+# enable this reference if bond valences were calculated
+#Brown, I. D. (1996). J. Appl. Cryst. 29, 479-480.
+
+# enable this reference if Xshape wase used for crystal shape refinement
+#Stoe & Cie (1998). X-SHAPE. Stoe & Cie, Darmstadt, Germany.
+
+
+# enable this reference if Flack coefficient was refined
+#Flack, H. D. (1983). Acta Cryst. A39, 876-881.
+
+;
+_publ_section_figure_captions           
+; ?
+;
+_publ_section_table_legends             
+; ?
+;
+
+#=======================================================================
+data_(I)
+#=======================================================================
+
+# 5. CHEMICAL DATA
+
+_chemical_name_systematic               
+; ?
+;
+_chemical_name_common                    ?
+_chemical_formula_moiety                 ?
+_chemical_formula_structural             ?
+_chemical_formula_analytical             ?
+_chemical_formula_iupac                  ?
+_chemical_formula_sum                    'As4 Cu12 S13'
+_chemical_formula_weight                 1479           
+_chemical_melting_point                  ?
+_chemical_compound_source                ?
+_chemical_absolute_configuration         ?              
+
+#=======================================================================
+
+# 6. CRYSTAL DATA
+
+_symmetry_cell_setting                   cubic
+_symmetry_space_group_name_H-M           'I -4 3 m'
+_symmetry_space_group_name_Hall          'I -4;2;3'
+loop_
+ _symmetry_equiv_pos_site_id                                 
+ _symmetry_equiv_pos_as_xyz                                  
+ 1   x,y,z
+ 2   y,-x,-z
+ 3   x,-y,-z
+ 4   z,x,y
+ 5   -x,-y,z
+ 6   -y,-x,z
+ 7   x,-z,-y
+ 8   -y,x,-z
+ 9   -x,y,-z
+ 10  -z,-x,y
+ 11  y,x,z
+ 12  -x,z,-y
+ 13  z,-x,-y
+ 14  -x,-z,y
+ 15  -z,x,-y
+ 16  x,z,y
+ 17  -z,y,-x
+ 18  y,z,x
+ 19  z,-y,-x
+ 20  -y,-z,x
+ 21  -z,-y,x
+ 22  -y,z,-x
+ 23  z,y,x
+ 24  y,-z,-x
+ 25  1/2+x,1/2+y,1/2+z
+ 26  1/2+y,1/2-x,1/2-z
+ 27  1/2+x,1/2-y,1/2-z
+ 28  1/2+z,1/2+x,1/2+y
+ 29  1/2-x,1/2-y,1/2+z
+ 30  1/2-y,1/2-x,1/2+z
+ 31  1/2+x,1/2-z,1/2-y
+ 32  1/2-y,1/2+x,1/2-z
+ 33  1/2-x,1/2+y,1/2-z
+ 34  1/2-z,1/2-x,1/2+y
+ 35  1/2+y,1/2+x,1/2+z
+ 36  1/2-x,1/2+z,1/2-y
+ 37  1/2+z,1/2-x,1/2-y
+ 38  1/2-x,1/2-z,1/2+y
+ 39  1/2-z,1/2+x,1/2-y
+ 40  1/2+x,1/2+z,1/2+y
+ 41  1/2-z,1/2+y,1/2-x
+ 42  1/2+y,1/2+z,1/2+x
+ 43  1/2+z,1/2-y,1/2-x
+ 44  1/2-y,1/2-z,1/2+x
+ 45  1/2-z,1/2-y,1/2+x
+ 46  1/2-y,1/2+z,1/2-x
+ 47  1/2+z,1/2+y,1/2+x
+ 48  1/2+y,1/2-z,1/2-x
+_cell_length_a                           10.1463(2)     
+_cell_length_b                           10.1463(2)     
+_cell_length_c                           10.1463(2)     
+_cell_angle_alpha                        90             
+_cell_angle_beta                         90             
+_cell_angle_gamma                        90             
+_cell_volume                             1044.54(4)     
+_cell_formula_units_Z                    2
+
+_cell_measurement_reflns_used            ?
+_cell_measurement_theta_min              ?
+_cell_measurement_theta_max              ?
+_cell_measurement_temperature            ?
+_cell_special_details                   
+; ?
+;
+
+_exptl_crystal_density_diffrn            4.70099        
+_exptl_crystal_density_meas              ?              
+_exptl_crystal_density_method            ?              
+_exptl_crystal_F_000                     1376           
+
+_exptl_absorpt_coefficient_mu            19.522         
+_exptl_crystal_description               ?
+_exptl_crystal_size_max                  ?
+_exptl_crystal_size_mid                  ?
+_exptl_crystal_size_min                  ?
+_exptl_crystal_size_rad                  ?
+_exptl_crystal_colour                    ?
+_exptl_absorpt_correction_type           None
+_exptl_absorpt_process_details           ?
+_exptl_absorpt_correction_T_min          1.000          
+_exptl_absorpt_correction_T_max          1.000          
+
+#=======================================================================
+
+# 7. EXPERIMENTAL DATA
+
+_exptl_special_details                   ?
+
+_diffrn_ambient_temperature              293            
+_diffrn_radiation_type                   'Mo K\a'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_radiation_source                 ?
+_diffrn_radiation_monochromator          ?
+_diffrn_measurement_device_type          ?
+_diffrn_detector_area_resol_mean         ?
+_diffrn_measurement_method               ?
+
+_diffrn_reflns_number                    11036          
+_diffrn_reflns_theta_min                 4.02           
+_diffrn_reflns_theta_max                 42.07          
+_diffrn_reflns_theta_full                42.07          
+_diffrn_measured_fraction_theta_max      ?
+_diffrn_measured_fraction_theta_full     1.00           
+_diffrn_reflns_av_R_equivalents          0.0379         
+_diffrn_reflns_av_sigmaI/netI            0.0105         
+_diffrn_reflns_limit_h_min               -19            
+_diffrn_reflns_limit_h_max               19             
+_diffrn_reflns_limit_k_min               -12            
+_diffrn_reflns_limit_k_max               19             
+_diffrn_reflns_limit_l_min               -18            
+_diffrn_reflns_limit_l_max               15             
+_diffrn_reflns_reduction_process         ?
+
+_diffrn_standards_number                 ?              
+_diffrn_standards_interval_count         ?              
+_diffrn_standards_interval_time          ?              
+_diffrn_standards_decay_%                ?
+
+#=======================================================================
+
+# 8. REFINEMENT DATA
+
+_refine_special_details                 
+; ?
+;
+
+_reflns_number_total                     721            
+_reflns_number_gt                        685            
+_reflns_threshold_expression             'I>2\s(I)'     
+
+_refine_ls_structure_factor_coef         F              
+_refine_ls_R_factor_gt                   0.0327         
+_refine_ls_wR_factor_gt                  0.0491         
+_refine_ls_R_factor_all                  0.0327         
+_refine_ls_wR_factor_ref                 0.0491         
+_refine_ls_goodness_of_fit_ref           1.14           
+_refine_ls_goodness_of_fit_gt            1.14           
+_refine_ls_restrained_S_gt               ?
+_refine_ls_restrained_S_all              ?
+_refine_ls_number_reflns                 685            
+_refine_ls_number_parameters             35             
+_refine_ls_number_restraints             ?
+_refine_ls_number_constraints            ?
+_refine_ls_weighting_scheme              sigma          
+_refine_ls_weighting_details             'w=1/(\s^2^(F)+0.001369F^2^)'
+_refine_ls_hydrogen_treatment            ?
+_refine_ls_shift/su_max                  0.0042         
+_refine_ls_shift/su_mean                 0.0007         
+_refine_diff_density_max                 2.54           
+_refine_diff_density_min                 -1.03          
+_refine_ls_extinction_method            
+ 'B-C type 1 Gaussian isotropic (Becker & Coppens, 1974)'
+_refine_ls_extinction_coef               1064(**)
+_refine_ls_abs_structure_details         ?
+_refine_ls_abs_structure_Flack           ?
+_refine_ls_abs_structure_Rogers          ?
+
+loop_
+ _atom_type_symbol                                           
+ _atom_type_scat_dispersion_real                             
+ _atom_type_scat_dispersion_imag                             
+ _atom_type_scat_source                                      
+ _atom_type_scat_versus_stol_list                            
+ Cu   0.320   1.265
+ 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+;
+ stol     0.00    0.05    0.10    0.15    0.20    0.25    0.30    0.35    0.40  
+  f     29.000  28.448  27.084  25.370  23.540  21.687  19.869  18.133  16.514  
+ stol     0.45    0.50    0.55    0.60    0.65    0.70    0.75    0.80    0.85  
+  f     15.034  13.707  12.533  11.507  10.621   9.861   9.214   8.663   8.197  
+ stol     0.90    0.95    1.00    1.05    1.10    1.15    1.20    1.25    1.30  
+  f      7.799   7.460   7.166   6.910   6.681   6.475   6.285   6.108   5.939  
+ stol     1.35    1.40    1.45    1.50    1.55    1.60    1.65    1.70    1.75  
+  f      5.776   5.617   5.462   5.308   5.156   5.005   4.854   4.705   4.558  
+ stol     1.80    1.85    1.90    1.95    2.00    2.05    2.10    2.15    2.20  
+  f      4.413   4.269   4.128   3.990   3.855   3.720   3.590   3.465   3.345  
+ stol     2.25    2.30    2.35    2.40    2.45    2.50    2.55    2.60    2.65  
+  f      3.230   3.119   3.013   2.911   2.814   2.721   2.631   2.546   2.465  
+ stol     2.70    2.75    2.80    2.85    2.90    2.95    3.00    3.05    3.10  
+  f      2.388   2.314   2.245   2.179   2.116   2.057   2.001   1.949   1.901  
+ stol     3.15    3.20    3.25    3.30    3.35    3.40    3.45    3.50    3.55  
+  f      1.854   1.810   1.768   1.728   1.691   1.655   1.622   1.590   1.562  
+ stol     3.60    3.65    3.70    3.75    3.80    3.85    3.90    3.95    4.00  
+  f      1.536   1.510   1.486   1.462   1.439   1.418   1.397   1.377   1.358  
+ stol     4.05    4.10    4.15    4.20    4.25    4.30    4.35    4.40    4.45  
+  f      1.340   1.322   1.306   1.289   1.274   1.259   1.245   1.232   1.219  
+ stol     4.50    4.55    4.60    4.65    4.70    4.75    4.80    4.85    4.90  
+  f      1.207   1.195   1.183   1.172   1.162   1.151   1.142   1.132   1.123  
+ stol     4.95    5.00    5.05    5.10    5.15    5.20    5.25    5.30    5.35  
+  f      1.114   1.105   1.096   1.088   1.080   1.071   1.063   1.055   1.047  
+ stol     5.40    5.45    5.50    5.55    5.60    5.65    5.70    5.75    5.80  
+  f      1.039   1.031   1.023   1.014   1.006   0.997   0.988   0.979   0.970  
+;
+ As   0.050   2.006
+ 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+;
+ stol     0.00    0.05    0.10    0.15    0.20    0.25    0.30    0.35    0.40  
+  f     33.000  32.274  30.473  28.307  26.235  24.386  22.724  21.185  19.725  
+ stol     0.45    0.50    0.55    0.60    0.65    0.70    0.75    0.80    0.85  
+  f     18.326  16.989  15.721  14.535  13.440  12.442  11.542  10.741  10.033  
+ stol     0.90    0.95    1.00    1.05    1.10    1.15    1.20    1.25    1.30  
+  f      9.411   8.868   8.396   7.987   7.631   7.322   7.050   6.810   6.597  
+ stol     1.35    1.40    1.45    1.50    1.55    1.60    1.65    1.70    1.75  
+  f      6.406   6.231   6.069   5.917   5.774   5.636   5.503   5.372   5.244  
+ stol     1.80    1.85    1.90    1.95    2.00    2.05    2.10    2.15    2.20  
+  f      5.117   4.991   4.867   4.744   4.621   4.496   4.373   4.253   4.135  
+ stol     2.25    2.30    2.35    2.40    2.45    2.50    2.55    2.60    2.65  
+  f      4.019   3.905   3.794   3.685   3.579   3.475   3.371   3.270   3.173  
+ stol     2.70    2.75    2.80    2.85    2.90    2.95    3.00    3.05    3.10  
+  f      3.079   2.989   2.901   2.817   2.737   2.659   2.584   2.512   2.443  
+ stol     3.15    3.20    3.25    3.30    3.35    3.40    3.45    3.50    3.55  
+  f      2.376   2.313   2.252   2.194   2.139   2.086   2.036   1.988   1.944  
+ stol     3.60    3.65    3.70    3.75    3.80    3.85    3.90    3.95    4.00  
+  f      1.901   1.861   1.822   1.785   1.749   1.715   1.682   1.651   1.621  
+ stol     4.05    4.10    4.15    4.20    4.25    4.30    4.35    4.40    4.45  
+  f      1.593   1.566   1.540   1.515   1.492   1.469   1.448   1.428   1.409  
+ stol     4.50    4.55    4.60    4.65    4.70    4.75    4.80    4.85    4.90  
+  f      1.391   1.373   1.357   1.341   1.326   1.312   1.299   1.286   1.274  
+ stol     4.95    5.00    5.05    5.10    5.15    5.20    5.25    5.30    5.35  
+  f      1.262   1.251   1.240   1.230   1.220   1.210   1.201   1.192   1.183  
+ stol     5.40    5.45    5.50    5.55    5.60    5.65    5.70    5.75    5.80  
+  f      1.174   1.165   1.156   1.148   1.139   1.130   1.121   1.112   1.102  
+;
+ S    0.125   0.123
+ 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+;
+ stol     0.00    0.05    0.10    0.15    0.20    0.25    0.30    0.35    0.40  
+  f     16.000  15.484  14.177  12.583  11.109   9.927   9.039   8.376   7.856  
+ stol     0.45    0.50    0.55    0.60    0.65    0.70    0.75    0.80    0.85  
+  f      7.417   7.017   6.633   6.254   5.877   5.505   5.141   4.790   4.454  
+ stol     0.90    0.95    1.00    1.05    1.10    1.15    1.20    1.25    1.30  
+  f      4.138   3.842   3.570   3.320   3.092   2.885   2.699   2.533   2.384  
+ stol     1.35    1.40    1.45    1.50    1.55    1.60    1.65    1.70    1.75  
+  f      2.251   2.133   2.028   1.935   1.853   1.779   1.713   1.655   1.604  
+ stol     1.80    1.85    1.90    1.95    2.00    2.05    2.10    2.15    2.20  
+  f      1.557   1.515   1.477   1.443   1.411   1.384   1.359   1.334   1.310  
+ stol     2.25    2.30    2.35    2.40    2.45    2.50    2.55    2.60    2.65  
+  f      1.287   1.265   1.243   1.222   1.202   1.182   1.164   1.146   1.129  
+ stol     2.70    2.75    2.80    2.85    2.90    2.95    3.00    3.05    3.10  
+  f      1.111   1.094   1.077   1.060   1.043   1.026   1.009   0.992   0.976  
+ stol     3.15    3.20    3.25    3.30    3.35    3.40    3.45    3.50    3.55  
+  f      0.960   0.943   0.927   0.911   0.895   0.880   0.864   0.849   0.834  
+ stol     3.60    3.65    3.70    3.75    3.80    3.85    3.90    3.95    4.00  
+  f      0.819   0.804   0.789   0.775   0.760   0.746   0.732   0.719   0.705  
+ stol     4.05    4.10    4.15    4.20    4.25    4.30    4.35    4.40    4.45  
+  f      0.692   0.678   0.666   0.653   0.640   0.628   0.616   0.604   0.592  
+ stol     4.50    4.55    4.60    4.65    4.70    4.75    4.80    4.85    4.90  
+  f      0.580   0.569   0.557   0.546   0.535   0.525   0.514   0.504   0.494  
+ stol     4.95    5.00    5.05    5.10    5.15    5.20    5.25    5.30    5.35  
+  f      0.484   0.474   0.464   0.455   0.446   0.437   0.428   0.419   0.411  
+ stol     5.40    5.45    5.50    5.55    5.60    5.65    5.70    5.75    5.80  
+  f      0.402   0.394   0.386   0.378   0.371   0.363   0.356   0.349   0.342  
+;
+
+_computing_data_collection               ?
+_computing_cell_refinement               ?
+_computing_data_reduction                ?
+_computing_structure_solution            ?
+_computing_structure_refinement         
+ 'Jana2000 (Petricek, Dusek & Palatinus, 2000)'
+_computing_molecular_graphics            ?
+_computing_publication_material         
+ 'Jana2000 (Petricek, Dusek & Palatinus, 2000)'
+
+#=======================================================================
+
+# 9. ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+
+loop_
+ _atom_site_label                                            
+ _atom_site_type_symbol                                      
+ _atom_site_fract_x                                          
+ _atom_site_fract_y                                          
+ _atom_site_fract_z                                          
+ _atom_site_adp_type                                         
+ _atom_site_U_iso_or_equiv                                   
+ _atom_site_symmetry_multiplicity                            
+ _atom_site_occupancy                                        
+ _atom_site_calc_flag                                        
+ _atom_site_refinement_flags                                 
+ _atom_site_disorder_assembly                                
+ _atom_site_disorder_group                                   
+  Cu1 Cu 0.5 0.25 0 Uani 0.0120(3) 12 1 d . . .
+  Cu2 Cu 0.2175(3) 0 0 Uani 0.0247(3) 12 0.724(4) d . . .
+  Cu21 Cu 0.2132(4) 0.0728(5) 0.0728(5) Uani 0.0256(11) 24 0.138(2) d . . .
+  S1 S 0.35740(9) -0.11844(7) 0.11844(7) Uani 0.00784(14) 24 1 d . . .
+  S2 S 0 0 0 Uani 0.0103(2) 2 1 d . . .
+  As1 As 0.24151(5) 0.24151(5) 0.24151(5) Uani 0.00878(9) 8 1 d . . .
+
+loop_
+ _atom_site_aniso_label                                      
+ _atom_site_aniso_type_symbol                                
+ _atom_site_aniso_U_11                                       
+ _atom_site_aniso_U_22                                       
+ _atom_site_aniso_U_33                                       
+ _atom_site_aniso_U_12                                       
+ _atom_site_aniso_U_13                                       
+ _atom_site_aniso_U_23                                       
+ Cu1 Cu 0.0096(4) 0.0167(8) 0.0096(4) 0 0 0
+ Cu2 Cu 0.0082(4) 0.0330(6) 0.0330(6) 0 0 0.0162(9)
+ Cu21 Cu 0.0126(17) 0.0321(19) 0.0321(19) -0.0123(13) -0.0123(13) 0.020(2)
+ S1 S 0.0054(3) 0.0091(2) 0.0091(2) -0.00244(17) 0.00244(17) -0.0018(3)
+ S2 S 0.0103(4) 0.0103(4) 0.0103(4) 0 0 0
+ As1 As 0.00878(16) 0.00878(16) 0.00878(16) 0.00077(12) 0.00077(12) 0.00077(12)
+
+#=======================================================================
+
+# 10. MOLECULAR GEOMETRY
+
+loop_
+ _geom_bond_atom_site_label_1                                
+ _geom_bond_atom_site_label_2                                
+ _geom_bond_site_symmetry_1                                  
+ _geom_bond_site_symmetry_2                                  
+ _geom_bond_distance                                         
+ _geom_bond_publ_flag                                        
+Cu1 S1 . 3_555 2.3064(8) yes
+Cu1 S1 . 5_655 2.3064(8) yes
+Cu1 S1 . 41_555 2.3064(8) yes
+Cu1 S1 . 44_554 2.3064(8) yes
+Cu2 Cu21 . . 1.046(5) yes
+Cu2 Cu21 . 2_555 2.717(5) yes
+Cu2 Cu21 . 3_555 1.046(5) yes
+Cu2 Cu21 . 4_555 2.717(5) yes
+Cu2 Cu21 . 18_555 2.717(5) yes
+Cu2 Cu21 . 19_555 2.717(5) yes
+Cu2 S1 . . 2.2144(19) yes
+Cu2 S1 . 3_555 2.2144(19) yes
+Cu2 S2 . . 2.207(3) yes
+Cu21 Cu21 . 3_555 2.090(7) yes
+Cu21 Cu21 . 4_555 2.015(7) yes
+Cu21 Cu21 . 18_555 2.015(7) yes
+Cu21 S1 . . 2.474(5) yes
+Cu21 S1 . 3_555 2.474(5) yes
+Cu21 S2 . . 2.403(5) yes
+Cu21 As1 . . 2.438(5) yes
+S1 As1 . 32_545 2.2463(9) yes
+
+
+loop_
+ _geom_angle_atom_site_label_1                               
+ _geom_angle_atom_site_label_2                               
+ _geom_angle_atom_site_label_3                               
+ _geom_angle_site_symmetry_1                                 
+ _geom_angle_site_symmetry_2                                 
+ _geom_angle_site_symmetry_3                                 
+ _geom_angle                                                 
+ _geom_angle_publ_flag                                       
+S1 Cu1 S1 3_555 . 5_655 109.27(3) yes
+S1 Cu1 S1 3_555 . 41_555 109.57(3) yes
+S1 Cu1 S1 3_555 . 44_554 109.57(3) yes
+S1 Cu1 S1 5_655 . 3_555 109.27(3) yes
+S1 Cu1 S1 5_655 . 41_555 109.57(3) yes
+S1 Cu1 S1 5_655 . 44_554 109.57(3) yes
+S1 Cu1 S1 41_555 . 3_555 109.57(3) yes
+S1 Cu1 S1 41_555 . 5_655 109.57(3) yes
+S1 Cu1 S1 41_555 . 44_554 109.27(3) yes
+S1 Cu1 S1 44_554 . 3_555 109.57(3) yes
+S1 Cu1 S1 44_554 . 5_655 109.57(3) yes
+S1 Cu1 S1 44_554 . 41_555 109.27(3) yes
+Cu21 Cu2 Cu21 . . 2_555 137.1(3) yes
+Cu21 Cu2 Cu21 . . 3_555 175.3(5) yes
+Cu21 Cu2 Cu21 . . 4_555 39.0(3) yes
+Cu21 Cu2 Cu21 . . 18_555 39.0(3) yes
+Cu21 Cu2 Cu21 . . 19_555 137.1(3) yes
+Cu21 Cu2 S1 . . . 91.5(3) yes
+Cu21 Cu2 S1 . . 3_555 91.5(3) yes
+Cu21 Cu2 S2 . . . 87.6(3) yes
+Cu21 Cu2 Cu21 2_555 . . 137.1(3) yes
+Cu21 Cu2 Cu21 2_555 . 3_555 39.0(3) yes
+Cu21 Cu2 Cu21 2_555 . 4_555 114.60(17) yes
+Cu21 Cu2 Cu21 2_555 . 18_555 98.12(16) yes
+Cu21 Cu2 Cu21 2_555 . 19_555 43.53(14) yes
+Cu21 Cu2 S1 2_555 . . 93.54(10) yes
+Cu21 Cu2 S1 2_555 . 3_555 129.12(10) yes
+Cu21 Cu2 S2 2_555 . . 57.30(11) yes
+Cu21 Cu2 Cu21 3_555 . . 175.3(5) yes
+Cu21 Cu2 Cu21 3_555 . 2_555 39.0(3) yes
+Cu21 Cu2 Cu21 3_555 . 4_555 137.1(3) yes
+Cu21 Cu2 Cu21 3_555 . 18_555 137.1(3) yes
+Cu21 Cu2 Cu21 3_555 . 19_555 39.0(3) yes
+Cu21 Cu2 S1 3_555 . . 91.5(3) yes
+Cu21 Cu2 S1 3_555 . 3_555 91.5(3) yes
+Cu21 Cu2 S2 3_555 . . 87.6(3) yes
+Cu21 Cu2 Cu21 4_555 . . 39.0(3) yes
+Cu21 Cu2 Cu21 4_555 . 2_555 114.60(17) yes
+Cu21 Cu2 Cu21 4_555 . 3_555 137.1(3) yes
+Cu21 Cu2 Cu21 4_555 . 18_555 43.53(14) yes
+Cu21 Cu2 Cu21 4_555 . 19_555 98.12(16) yes
+Cu21 Cu2 S1 4_555 . . 129.12(10) yes
+Cu21 Cu2 S1 4_555 . 3_555 93.54(10) yes
+Cu21 Cu2 S2 4_555 . . 57.30(11) yes
+Cu21 Cu2 Cu21 18_555 . . 39.0(3) yes
+Cu21 Cu2 Cu21 18_555 . 2_555 98.12(16) yes
+Cu21 Cu2 Cu21 18_555 . 3_555 137.1(3) yes
+Cu21 Cu2 Cu21 18_555 . 4_555 43.53(14) yes
+Cu21 Cu2 Cu21 18_555 . 19_555 114.60(17) yes
+Cu21 Cu2 S1 18_555 . . 93.54(10) yes
+Cu21 Cu2 S1 18_555 . 3_555 129.12(10) yes
+Cu21 Cu2 S2 18_555 . . 57.30(11) yes
+Cu21 Cu2 Cu21 19_555 . . 137.1(3) yes
+Cu21 Cu2 Cu21 19_555 . 2_555 43.53(14) yes
+Cu21 Cu2 Cu21 19_555 . 3_555 39.0(3) yes
+Cu21 Cu2 Cu21 19_555 . 4_555 98.12(16) yes
+Cu21 Cu2 Cu21 19_555 . 18_555 114.60(17) yes
+Cu21 Cu2 S1 19_555 . . 129.12(10) yes
+Cu21 Cu2 S1 19_555 . 3_555 93.54(10) yes
+Cu21 Cu2 S2 19_555 . . 57.30(11) yes
+S1 Cu2 S1 . . 3_555 100.25(11) yes
+S1 Cu2 S2 . . . 129.87(6) yes
+S1 Cu2 S1 3_555 . . 100.25(11) yes
+S1 Cu2 S2 3_555 . . 129.87(6) yes
+Cu2 Cu21 Cu2 . . 4_555 102.8(3) yes
+Cu2 Cu21 Cu2 . . 18_555 102.8(3) yes
+Cu2 Cu21 Cu21 . . 3_555 2.4(2) yes
+Cu2 Cu21 Cu21 . . 4_555 121.9(4) yes
+Cu2 Cu21 Cu21 . . 18_555 121.9(4) yes
+Cu2 Cu21 S1 . . . 63.5(2) yes
+Cu2 Cu21 S1 . . 3_555 63.5(2) yes
+Cu2 Cu21 S2 . . . 66.6(3) yes
+Cu2 Cu21 As1 . . . 170.9(4) yes
+Cu2 Cu21 Cu2 4_555 . . 102.8(3) yes
+Cu2 Cu21 Cu2 4_555 . 18_555 70.11(11) yes
+Cu2 Cu21 Cu21 4_555 . 3_555 100.9(2) yes
+Cu2 Cu21 Cu21 4_555 . 4_555 19.07(15) yes
+Cu2 Cu21 Cu21 4_555 . 18_555 68.24(18) yes
+Cu2 Cu21 S1 4_555 . . 161.0(2) yes
+Cu2 Cu21 S1 4_555 . 3_555 99.00(16) yes
+Cu2 Cu21 S2 4_555 . . 50.61(10) yes
+Cu2 Cu21 As1 4_555 . . 84.57(15) yes
+Cu2 Cu21 Cu2 18_555 . . 102.8(3) yes
+Cu2 Cu21 Cu2 18_555 . 4_555 70.11(11) yes
+Cu2 Cu21 Cu21 18_555 . 3_555 100.9(2) yes
+Cu2 Cu21 Cu21 18_555 . 4_555 68.24(18) yes
+Cu2 Cu21 Cu21 18_555 . 18_555 19.07(15) yes
+Cu2 Cu21 S1 18_555 . . 99.00(16) yes
+Cu2 Cu21 S1 18_555 . 3_555 161.0(2) yes
+Cu2 Cu21 S2 18_555 . . 50.61(10) yes
+Cu2 Cu21 As1 18_555 . . 84.57(15) yes
+Cu21 Cu21 Cu21 3_555 . 4_555 120.0(3) yes
+Cu21 Cu21 Cu21 3_555 . 18_555 120.0(3) yes
+Cu21 Cu21 S1 3_555 . . 65.01(18) yes
+Cu21 Cu21 S1 3_555 . 3_555 65.01(18) yes
+Cu21 Cu21 S2 3_555 . . 64.22(18) yes
+Cu21 Cu21 As1 3_555 . . 173.2(3) yes
+Cu21 Cu21 Cu21 4_555 . 3_555 120.0(3) yes
+Cu21 Cu21 Cu21 4_555 . 18_555 60.0(2) yes
+Cu21 Cu21 S1 4_555 . . 166.6(3) yes
+Cu21 Cu21 S1 4_555 . 3_555 106.6(2) yes
+Cu21 Cu21 S2 4_555 . . 65.21(18) yes
+Cu21 Cu21 As1 4_555 . . 65.59(19) yes
+Cu21 Cu21 Cu21 18_555 . 3_555 120.0(3) yes
+Cu21 Cu21 Cu21 18_555 . 4_555 60.0(2) yes
+Cu21 Cu21 S1 18_555 . . 106.6(2) yes
+Cu21 Cu21 S1 18_555 . 3_555 166.6(3) yes
+Cu21 Cu21 S2 18_555 . . 65.21(18) yes
+Cu21 Cu21 As1 18_555 . . 65.59(19) yes
+S1 Cu21 S1 . . 3_555 86.78(15) yes
+S1 Cu21 S2 . . . 110.41(18) yes
+S1 Cu21 As1 . . . 110.48(18) yes
+S1 Cu21 S1 3_555 . . 86.78(15) yes
+S1 Cu21 S2 3_555 . . 110.41(18) yes
+S1 Cu21 As1 3_555 . . 110.48(18) yes
+S2 Cu21 As1 . . . 122.54(19) yes
+Cu1 S1 Cu1 3_555 . 37_555 102.10(4) yes
+Cu1 S1 Cu2 3_555 . . 115.69(4) yes
+Cu1 S1 Cu21 3_555 . . 136.68(11) yes
+Cu1 S1 Cu21 3_555 . 3_555 94.04(11) yes
+Cu1 S1 As1 3_555 . 32_545 104.11(3) yes
+Cu1 S1 Cu1 37_555 . 3_555 102.10(4) yes
+Cu1 S1 Cu2 37_555 . . 115.69(4) yes
+Cu1 S1 Cu21 37_555 . . 94.04(11) yes
+Cu1 S1 Cu21 37_555 . 3_555 136.68(11) yes
+Cu1 S1 As1 37_555 . 32_545 104.11(3) yes
+Cu2 S1 Cu21 . . . 25.00(11) yes
+Cu2 S1 Cu21 . . 3_555 25.00(11) yes
+Cu2 S1 As1 . . 32_545 113.59(7) yes
+Cu21 S1 Cu21 . . 3_555 49.97(15) yes
+Cu21 S1 As1 . . 32_545 110.51(11) yes
+Cu21 S1 Cu21 3_555 . . 49.97(15) yes
+Cu21 S1 As1 3_555 . 32_545 110.51(11) yes
+Cu2 S2 Cu2 . . 2_555 90 yes
+Cu2 S2 Cu2 . . 4_555 90 yes
+Cu2 S2 Cu2 . . 5_555 180 yes
+Cu2 S2 Cu2 . . 17_555 90 yes
+Cu2 S2 Cu2 . . 18_555 90 yes
+Cu2 S2 Cu21 . . . 25.78(11) yes
+Cu2 S2 Cu21 . . 2_555 72.09(11) yes
+Cu2 S2 Cu21 . . 3_555 25.78(11) yes
+Cu2 S2 Cu21 . . 4_555 72.09(11) yes
+Cu2 S2 Cu21 . . 5_555 154.22(11) yes
+Cu2 S2 Cu21 . . 6_555 107.91(11) yes
+Cu2 S2 Cu21 . . 8_555 107.91(11) yes
+Cu2 S2 Cu21 . . 9_555 154.22(11) yes
+Cu2 S2 Cu21 . . 17_555 107.91(11) yes
+Cu2 S2 Cu21 . . 18_555 72.09(11) yes
+Cu2 S2 Cu21 . . 19_555 72.09(11) yes
+Cu2 S2 Cu21 . . 20_555 107.91(11) yes
+Cu2 S2 Cu2 2_555 . . 90 yes
+Cu2 S2 Cu2 2_555 . 4_555 180 yes
+Cu2 S2 Cu2 2_555 . 5_555 90 yes
+Cu2 S2 Cu2 2_555 . 17_555 90 yes
+Cu2 S2 Cu2 2_555 . 18_555 90 yes
+Cu2 S2 Cu21 2_555 . . 107.91(11) yes
+Cu2 S2 Cu21 2_555 . 2_555 25.78(11) yes
+Cu2 S2 Cu21 2_555 . 3_555 72.09(11) yes
+Cu2 S2 Cu21 2_555 . 4_555 154.22(11) yes
+Cu2 S2 Cu21 2_555 . 5_555 72.09(11) yes
+Cu2 S2 Cu21 2_555 . 6_555 25.78(11) yes
+Cu2 S2 Cu21 2_555 . 8_555 154.22(11) yes
+Cu2 S2 Cu21 2_555 . 9_555 107.91(11) yes
+Cu2 S2 Cu21 2_555 . 17_555 107.91(11) yes
+Cu2 S2 Cu21 2_555 . 18_555 107.91(11) yes
+Cu2 S2 Cu21 2_555 . 19_555 72.09(11) yes
+Cu2 S2 Cu21 2_555 . 20_555 72.09(11) yes
+Cu2 S2 Cu2 4_555 . . 90 yes
+Cu2 S2 Cu2 4_555 . 2_555 180 yes
+Cu2 S2 Cu2 4_555 . 5_555 90 yes
+Cu2 S2 Cu2 4_555 . 17_555 90 yes
+Cu2 S2 Cu2 4_555 . 18_555 90 yes
+Cu2 S2 Cu21 4_555 . . 72.09(11) yes
+Cu2 S2 Cu21 4_555 . 2_555 154.22(11) yes
+Cu2 S2 Cu21 4_555 . 3_555 107.91(11) yes
+Cu2 S2 Cu21 4_555 . 4_555 25.78(11) yes
+Cu2 S2 Cu21 4_555 . 5_555 107.91(11) yes
+Cu2 S2 Cu21 4_555 . 6_555 154.22(11) yes
+Cu2 S2 Cu21 4_555 . 8_555 25.78(11) yes
+Cu2 S2 Cu21 4_555 . 9_555 72.09(11) yes
+Cu2 S2 Cu21 4_555 . 17_555 72.09(11) yes
+Cu2 S2 Cu21 4_555 . 18_555 72.09(11) yes
+Cu2 S2 Cu21 4_555 . 19_555 107.91(11) yes
+Cu2 S2 Cu21 4_555 . 20_555 107.91(11) yes
+Cu2 S2 Cu2 5_555 . . 180 yes
+Cu2 S2 Cu2 5_555 . 2_555 90 yes
+Cu2 S2 Cu2 5_555 . 4_555 90 yes
+Cu2 S2 Cu2 5_555 . 17_555 90 yes
+Cu2 S2 Cu2 5_555 . 18_555 90 yes
+Cu2 S2 Cu21 5_555 . . 154.22(11) yes
+Cu2 S2 Cu21 5_555 . 2_555 107.91(11) yes
+Cu2 S2 Cu21 5_555 . 3_555 154.22(11) yes
+Cu2 S2 Cu21 5_555 . 4_555 107.91(11) yes
+Cu2 S2 Cu21 5_555 . 5_555 25.78(11) yes
+Cu2 S2 Cu21 5_555 . 6_555 72.09(11) yes
+Cu2 S2 Cu21 5_555 . 8_555 72.09(11) yes
+Cu2 S2 Cu21 5_555 . 9_555 25.78(11) yes
+Cu2 S2 Cu21 5_555 . 17_555 72.09(11) yes
+Cu2 S2 Cu21 5_555 . 18_555 107.91(11) yes
+Cu2 S2 Cu21 5_555 . 19_555 107.91(11) yes
+Cu2 S2 Cu21 5_555 . 20_555 72.09(11) yes
+Cu2 S2 Cu2 17_555 . . 90 yes
+Cu2 S2 Cu2 17_555 . 2_555 90 yes
+Cu2 S2 Cu2 17_555 . 4_555 90 yes
+Cu2 S2 Cu2 17_555 . 5_555 90 yes
+Cu2 S2 Cu2 17_555 . 18_555 180 yes
+Cu2 S2 Cu21 17_555 . . 107.91(11) yes
+Cu2 S2 Cu21 17_555 . 2_555 72.09(11) yes
+Cu2 S2 Cu21 17_555 . 3_555 72.09(11) yes
+Cu2 S2 Cu21 17_555 . 4_555 107.91(11) yes
+Cu2 S2 Cu21 17_555 . 5_555 107.91(11) yes
+Cu2 S2 Cu21 17_555 . 6_555 107.91(11) yes
+Cu2 S2 Cu21 17_555 . 8_555 72.09(11) yes
+Cu2 S2 Cu21 17_555 . 9_555 72.09(11) yes
+Cu2 S2 Cu21 17_555 . 17_555 25.78(11) yes
+Cu2 S2 Cu21 17_555 . 18_555 154.22(11) yes
+Cu2 S2 Cu21 17_555 . 19_555 25.78(11) yes
+Cu2 S2 Cu21 17_555 . 20_555 154.22(11) yes
+Cu2 S2 Cu2 18_555 . . 90 yes
+Cu2 S2 Cu2 18_555 . 2_555 90 yes
+Cu2 S2 Cu2 18_555 . 4_555 90 yes
+Cu2 S2 Cu2 18_555 . 5_555 90 yes
+Cu2 S2 Cu2 18_555 . 17_555 180 yes
+Cu2 S2 Cu21 18_555 . . 72.09(11) yes
+Cu2 S2 Cu21 18_555 . 2_555 107.91(11) yes
+Cu2 S2 Cu21 18_555 . 3_555 107.91(11) yes
+Cu2 S2 Cu21 18_555 . 4_555 72.09(11) yes
+Cu2 S2 Cu21 18_555 . 5_555 72.09(11) yes
+Cu2 S2 Cu21 18_555 . 6_555 72.09(11) yes
+Cu2 S2 Cu21 18_555 . 8_555 107.91(11) yes
+Cu2 S2 Cu21 18_555 . 9_555 107.91(11) yes
+Cu2 S2 Cu21 18_555 . 17_555 154.22(11) yes
+Cu2 S2 Cu21 18_555 . 18_555 25.78(11) yes
+Cu2 S2 Cu21 18_555 . 19_555 154.22(11) yes
+Cu2 S2 Cu21 18_555 . 20_555 25.78(11) yes
+Cu21 S2 Cu21 . . 2_555 95.43(16) yes
+Cu21 S2 Cu21 . . 3_555 51.56(16) yes
+Cu21 S2 Cu21 . . 4_555 49.58(16) yes
+Cu21 S2 Cu21 . . 5_555 144.18(16) yes
+Cu21 S2 Cu21 . . 6_555 117.34(16) yes
+Cu21 S2 Cu21 . . 8_555 95.43(16) yes
+Cu21 S2 Cu21 . . 9_555 144.18(16) yes
+Cu21 S2 Cu21 . . 17_555 117.34(16) yes
+Cu21 S2 Cu21 . . 18_555 49.58(16) yes
+Cu21 S2 Cu21 . . 19_555 95.43(16) yes
+Cu21 S2 Cu21 . . 20_555 95.43(16) yes
+Cu21 S2 Cu21 2_555 . . 95.43(16) yes
+Cu21 S2 Cu21 2_555 . 3_555 49.58(16) yes
+Cu21 S2 Cu21 2_555 . 4_555 144.18(16) yes
+Cu21 S2 Cu21 2_555 . 5_555 95.43(16) yes
+Cu21 S2 Cu21 2_555 . 6_555 51.56(16) yes
+Cu21 S2 Cu21 2_555 . 8_555 144.18(16) yes
+Cu21 S2 Cu21 2_555 . 9_555 117.34(16) yes
+Cu21 S2 Cu21 2_555 . 17_555 95.43(16) yes
+Cu21 S2 Cu21 2_555 . 18_555 117.34(16) yes
+Cu21 S2 Cu21 2_555 . 19_555 49.58(16) yes
+Cu21 S2 Cu21 2_555 . 20_555 95.43(16) yes
+Cu21 S2 Cu21 3_555 . . 51.56(16) yes
+Cu21 S2 Cu21 3_555 . 2_555 49.58(16) yes
+Cu21 S2 Cu21 3_555 . 4_555 95.43(16) yes
+Cu21 S2 Cu21 3_555 . 5_555 144.18(16) yes
+Cu21 S2 Cu21 3_555 . 6_555 95.43(16) yes
+Cu21 S2 Cu21 3_555 . 8_555 117.34(16) yes
+Cu21 S2 Cu21 3_555 . 9_555 144.18(16) yes
+Cu21 S2 Cu21 3_555 . 17_555 95.43(16) yes
+Cu21 S2 Cu21 3_555 . 18_555 95.43(16) yes
+Cu21 S2 Cu21 3_555 . 19_555 49.58(16) yes
+Cu21 S2 Cu21 3_555 . 20_555 117.34(16) yes
+Cu21 S2 Cu21 4_555 . . 49.58(16) yes
+Cu21 S2 Cu21 4_555 . 2_555 144.18(16) yes
+Cu21 S2 Cu21 4_555 . 3_555 95.43(16) yes
+Cu21 S2 Cu21 4_555 . 5_555 117.34(16) yes
+Cu21 S2 Cu21 4_555 . 6_555 144.18(16) yes
+Cu21 S2 Cu21 4_555 . 8_555 51.56(16) yes
+Cu21 S2 Cu21 4_555 . 9_555 95.43(16) yes
+Cu21 S2 Cu21 4_555 . 17_555 95.43(16) yes
+Cu21 S2 Cu21 4_555 . 18_555 49.58(16) yes
+Cu21 S2 Cu21 4_555 . 19_555 117.34(16) yes
+Cu21 S2 Cu21 4_555 . 20_555 95.43(16) yes
+Cu21 S2 Cu21 5_555 . . 144.18(16) yes
+Cu21 S2 Cu21 5_555 . 2_555 95.43(16) yes
+Cu21 S2 Cu21 5_555 . 3_555 144.18(16) yes
+Cu21 S2 Cu21 5_555 . 4_555 117.34(16) yes
+Cu21 S2 Cu21 5_555 . 6_555 49.58(16) yes
+Cu21 S2 Cu21 5_555 . 8_555 95.43(16) yes
+Cu21 S2 Cu21 5_555 . 9_555 51.56(16) yes
+Cu21 S2 Cu21 5_555 . 17_555 95.43(16) yes
+Cu21 S2 Cu21 5_555 . 18_555 95.43(16) yes
+Cu21 S2 Cu21 5_555 . 19_555 117.34(16) yes
+Cu21 S2 Cu21 5_555 . 20_555 49.58(16) yes
+Cu21 S2 Cu21 6_555 . . 117.34(16) yes
+Cu21 S2 Cu21 6_555 . 2_555 51.56(16) yes
+Cu21 S2 Cu21 6_555 . 3_555 95.43(16) yes
+Cu21 S2 Cu21 6_555 . 4_555 144.18(16) yes
+Cu21 S2 Cu21 6_555 . 5_555 49.58(16) yes
+Cu21 S2 Cu21 6_555 . 8_555 144.18(16) yes
+Cu21 S2 Cu21 6_555 . 9_555 95.43(16) yes
+Cu21 S2 Cu21 6_555 . 17_555 117.34(16) yes
+Cu21 S2 Cu21 6_555 . 18_555 95.43(16) yes
+Cu21 S2 Cu21 6_555 . 19_555 95.43(16) yes
+Cu21 S2 Cu21 6_555 . 20_555 49.58(16) yes
+Cu21 S2 Cu21 8_555 . . 95.43(16) yes
+Cu21 S2 Cu21 8_555 . 2_555 144.18(16) yes
+Cu21 S2 Cu21 8_555 . 3_555 117.34(16) yes
+Cu21 S2 Cu21 8_555 . 4_555 51.56(16) yes
+Cu21 S2 Cu21 8_555 . 5_555 95.43(16) yes
+Cu21 S2 Cu21 8_555 . 6_555 144.18(16) yes
+Cu21 S2 Cu21 8_555 . 9_555 49.58(16) yes
+Cu21 S2 Cu21 8_555 . 17_555 49.58(16) yes
+Cu21 S2 Cu21 8_555 . 18_555 95.43(16) yes
+Cu21 S2 Cu21 8_555 . 19_555 95.43(16) yes
+Cu21 S2 Cu21 8_555 . 20_555 117.34(16) yes
+Cu21 S2 Cu21 9_555 . . 144.18(16) yes
+Cu21 S2 Cu21 9_555 . 2_555 117.34(16) yes
+Cu21 S2 Cu21 9_555 . 3_555 144.18(16) yes
+Cu21 S2 Cu21 9_555 . 4_555 95.43(16) yes
+Cu21 S2 Cu21 9_555 . 5_555 51.56(16) yes
+Cu21 S2 Cu21 9_555 . 6_555 95.43(16) yes
+Cu21 S2 Cu21 9_555 . 8_555 49.58(16) yes
+Cu21 S2 Cu21 9_555 . 17_555 49.58(16) yes
+Cu21 S2 Cu21 9_555 . 18_555 117.34(16) yes
+Cu21 S2 Cu21 9_555 . 19_555 95.43(16) yes
+Cu21 S2 Cu21 9_555 . 20_555 95.43(16) yes
+Cu21 S2 Cu21 17_555 . . 117.34(16) yes
+Cu21 S2 Cu21 17_555 . 2_555 95.43(16) yes
+Cu21 S2 Cu21 17_555 . 3_555 95.43(16) yes
+Cu21 S2 Cu21 17_555 . 4_555 95.43(16) yes
+Cu21 S2 Cu21 17_555 . 5_555 95.43(16) yes
+Cu21 S2 Cu21 17_555 . 6_555 117.34(16) yes
+Cu21 S2 Cu21 17_555 . 8_555 49.58(16) yes
+Cu21 S2 Cu21 17_555 . 9_555 49.58(16) yes
+Cu21 S2 Cu21 17_555 . 18_555 144.18(16) yes
+Cu21 S2 Cu21 17_555 . 19_555 51.56(16) yes
+Cu21 S2 Cu21 17_555 . 20_555 144.18(16) yes
+Cu21 S2 Cu21 18_555 . . 49.58(16) yes
+Cu21 S2 Cu21 18_555 . 2_555 117.34(16) yes
+Cu21 S2 Cu21 18_555 . 3_555 95.43(16) yes
+Cu21 S2 Cu21 18_555 . 4_555 49.58(16) yes
+Cu21 S2 Cu21 18_555 . 5_555 95.43(16) yes
+Cu21 S2 Cu21 18_555 . 6_555 95.43(16) yes
+Cu21 S2 Cu21 18_555 . 8_555 95.43(16) yes
+Cu21 S2 Cu21 18_555 . 9_555 117.34(16) yes
+Cu21 S2 Cu21 18_555 . 17_555 144.18(16) yes
+Cu21 S2 Cu21 18_555 . 19_555 144.18(16) yes
+Cu21 S2 Cu21 18_555 . 20_555 51.56(16) yes
+Cu21 S2 Cu21 19_555 . . 95.43(16) yes
+Cu21 S2 Cu21 19_555 . 2_555 49.58(16) yes
+Cu21 S2 Cu21 19_555 . 3_555 49.58(16) yes
+Cu21 S2 Cu21 19_555 . 4_555 117.34(16) yes
+Cu21 S2 Cu21 19_555 . 5_555 117.34(16) yes
+Cu21 S2 Cu21 19_555 . 6_555 95.43(16) yes
+Cu21 S2 Cu21 19_555 . 8_555 95.43(16) yes
+Cu21 S2 Cu21 19_555 . 9_555 95.43(16) yes
+Cu21 S2 Cu21 19_555 . 17_555 51.56(16) yes
+Cu21 S2 Cu21 19_555 . 18_555 144.18(16) yes
+Cu21 S2 Cu21 19_555 . 20_555 144.18(16) yes
+Cu21 S2 Cu21 20_555 . . 95.43(16) yes
+Cu21 S2 Cu21 20_555 . 2_555 95.43(16) yes
+Cu21 S2 Cu21 20_555 . 3_555 117.34(16) yes
+Cu21 S2 Cu21 20_555 . 4_555 95.43(16) yes
+Cu21 S2 Cu21 20_555 . 5_555 49.58(16) yes
+Cu21 S2 Cu21 20_555 . 6_555 49.58(16) yes
+Cu21 S2 Cu21 20_555 . 8_555 117.34(16) yes
+Cu21 S2 Cu21 20_555 . 9_555 95.43(16) yes
+Cu21 S2 Cu21 20_555 . 17_555 144.18(16) yes
+Cu21 S2 Cu21 20_555 . 18_555 51.56(16) yes
+Cu21 S2 Cu21 20_555 . 19_555 144.18(16) yes
+Cu21 As1 Cu21 . . 4_555 48.82(15) yes
+Cu21 As1 Cu21 . . 18_555 48.82(15) yes
+Cu21 As1 S1 . . 26_555 101.83(11) yes
+Cu21 As1 S1 . . 33_555 146.70(11) yes
+Cu21 As1 S1 . . 41_555 101.83(11) yes
+Cu21 As1 Cu21 4_555 . . 48.82(15) yes
+Cu21 As1 Cu21 4_555 . 18_555 48.82(15) yes
+Cu21 As1 S1 4_555 . 26_555 146.70(11) yes
+Cu21 As1 S1 4_555 . 33_555 101.83(11) yes
+Cu21 As1 S1 4_555 . 41_555 101.83(11) yes
+Cu21 As1 Cu21 18_555 . . 48.82(15) yes
+Cu21 As1 Cu21 18_555 . 4_555 48.82(15) yes
+Cu21 As1 S1 18_555 . 26_555 101.83(11) yes
+Cu21 As1 S1 18_555 . 33_555 101.83(11) yes
+Cu21 As1 S1 18_555 . 41_555 146.70(11) yes
+S1 As1 S1 26_555 . 33_555 99.50(3) yes
+S1 As1 S1 26_555 . 41_555 99.50(3) yes
+S1 As1 S1 33_555 . 26_555 99.50(3) yes
+S1 As1 S1 33_555 . 41_555 99.50(3) yes
+S1 As1 S1 41_555 . 26_555 99.50(3) yes
+S1 As1 S1 41_555 . 33_555 99.50(3) yes
+
