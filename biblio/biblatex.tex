@@ -1,6 +1,6 @@
 %%% Реализация библиографии пакетами biblatex и biblatex-gost с использованием движка biber %%%
 
-%\usepackage{csquotes} % biblatex рекомендует его подключать. Пакет для оформления сложных блоков цитирования.
+\usepackage{csquotes} % biblatex рекомендует его подключать. Пакет для оформления сложных блоков цитирования.
 
 %%% Загрузка пакета с основными настройками %%%
 \usepackage[%
@@ -8,6 +8,7 @@ backend=biber,% движок
 bibencoding=utf8,% кодировка bib файла
 sorting=none,% настройка сортировки списка литературы
 style=gost-numeric,% стиль цитирования и библиографии (по ГОСТ)
+minnames=1,
 maxnames=10,
 movenames=false,
 language=autobib,% получение языка из babel/polyglossia, default: autobib % если ставить autocite или auto, то цитаты в тексте с указанием страницы, получат указание страницы на языке оригинала
